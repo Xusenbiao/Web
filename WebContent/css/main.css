@@ -1,0 +1,131 @@
+	body{
+		/*background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);*/
+		background-image: url("../images/bg3.png");
+		/*background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);*/
+	}
+	a:link, a:visited, a:hover, a:active { text-decoration: none;}
+	@font-face{
+		font-family: 'Arial Rounded MT Bold';
+		src:url('../fonts/ARLRDBD.TTF');
+	}
+
+	#title{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 27px;
+   		position: absolute;
+		top: 27px;
+		left: 35px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+	
+	header{
+		font-family: Arial Rounded MT Bold;
+		text-align: center;
+		margin-top: 10%;
+		font-size: 40px;
+		color: #737373;
+		text-shadow: 0px 1px 1px #ababab;
+	}
+	#icons{
+		text-align: center;
+		margin-top: 100px;
+		margin-bottom: 30px;
+	}
+	.icon img{
+			transition-property: height;
+			transition-duration: 0.4s;
+			height: 50px;
+	}
+	.icon img:hover{
+			transition-property: height;
+			transition-duration: 0.4s;
+			height: 60px;
+	}
+
+	.icon{
+		padding-right: 20px;
+	}
+	#show_time{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 27px;
+   		position: absolute;
+		top: 27px;
+		right: 35px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#input{
+		text-align: center;
+	}
+
+	textarea{
+		line-height: 1.2em;
+		font-family: Arial Rounded MT Bold,黑体;
+		color: #888;
+		background-color:#efefef;
+		/*background-image: url(images/textareabg.png);*/
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-clip: content-box;
+		border: none;
+		border-radius: 24px;
+		resize: none;
+		outline: none;
+		width: 700px;
+		height: 180px;
+		padding: 15px;
+		font-size: 24px;
+		text-indent: 2em;
+		box-shadow: 0px 5px 10px #9c9c9c;
+		margin-top: 20px;
+		position: relative;
+	}
+
+	input{
+		background-image: url(../images/publish.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 118px;
+		height: 37px;
+		outline: none;
+		position: relative;
+		top: 30px;
+		left: 302px;
+		border:0px;
+		border-radius: 12px;
+		box-shadow: 0px 1px 5px #9c9c9c;
+	}
+
+	input:hover{
+		background-image: url(../images/publish1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 118px;
+		height: 37px;
+		outline: none;
+		position: relative;
+		top: 30px;
+		left: 302px;
+		border:0px;
+		border-radius: 12px;
+		box-shadow: 0px 1px 5px #9c9c9c;
+	}
+	
+	#logout{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 20px;
+   		position: absolute;
+		top: 60px;
+		left: 37px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#logout:hover{
+	  text-decoration: none;
+      font-family: 'Arial Rounded MT Bold';
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #9a9898;
+	}

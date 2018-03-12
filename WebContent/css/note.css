@@ -1,0 +1,228 @@
+
+	body{
+		/*background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);*/
+		background-image: url("../images/bg3.png");
+		/*background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);*/
+	}
+	a:link, a:visited,a:active { text-decoration: none;}
+	@font-face{
+		font-family: 'Arial Rounded MT Bold';
+		src:url('../fonts/ARLRDBD.TTF');
+	}
+
+	#title{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 27px;
+   		position: absolute;
+		top: 27px;
+		left: 35px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#logout{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 20px;
+   		position: absolute;
+		top: 60px;
+		left: 37px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#logout:hover{
+	  text-decoration: none;
+      font-family: 'Arial Rounded MT Bold';
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #9a9898;
+	}
+
+	#reback{
+		position:fixed;
+		right:35px;
+		top:27px;
+	  	font-family: 'Arial Rounded MT Bold';
+     	font-weight: bold;
+     	font-size: 27px;
+        color: #adadad;
+        text-shadow: 0px 1px 1px #ababab;
+	}
+	#reback:hover{
+      text-decoration: none;
+      font-family: 'Arial Rounded MT Bold';
+      font-weight: bold;
+      font-size: 27px;
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #ababab;
+    }
+
+	#show_time{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 27px;
+   		position: absolute;
+		top: 27px;
+		right: 35px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#head_info{
+		width:980px;
+		height:250px;
+		position:relative;
+		margin:0 auto;
+	}
+	#head_info *{
+		position:absolute;
+	}
+	#header_name{
+		color: #da9696;
+		text-shadow: 0px 2px 2px #9a9a9a;
+		font-family: Arial Rounded MT Bold;
+		bottom:-4%;
+		left:0%;
+		font-size:50px;
+	}
+	#main {
+		width:980px;
+		margin:0 auto;
+	}
+	#middle{
+		width:100%;
+		margin:0 auto;
+	}
+
+	#input_msg{
+		width:100%;
+		height:150px;
+	}
+	#text_msg{
+		width:85%;
+		height:95%;
+		padding:5px;
+		box-sizing:content-box;	
+		line-height: 1.2em;
+		font-family: Arial Rounded MT Bold,Î¢ÈíÑÅºÚ;
+		color: #9e9e9e;
+		background-color:rgba(250, 250, 250, 0.3);
+		border: none;
+		border-radius: 24px;
+		resize: none;
+		outline: none;
+		font-size: 24px;
+		text-indent: 2em;
+		box-shadow: 0px 5px 10px #9c9c9c;
+	}
+
+		#submit{
+		background-image: url(../images/publish.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 118px;
+		height: 37px;
+		outline: none;
+		position: relative;
+		top: 10px;
+		left:726px;
+		border:0px;
+		border-radius: 12px;
+		box-shadow: 0px 1px 5px #9c9c9c;
+		margin-bottom: 20px;
+	}
+
+		#submit:hover{
+		background-image: url(../images/publish1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 118px;
+		height: 37px;
+		outline: none;
+		position: relative;
+		top: 10px;
+		left:726px;
+		border:0px;
+		border-radius: 12px;
+		box-shadow: 0px 1px 5px #9c9c9c;
+		margin-bottom: 20px;
+		cursor: pointer;
+	}
+	
+	#info_form{width:100%;height:100%;}
+	.info{
+		height:300px;
+		width:100%;
+		box-sizing:border-box;
+		padding:20px;
+		margin-top:35px;
+		position:relative;
+		background-color:#da9696;
+
+		line-height: 1.2em;
+		font-family: Arial Rounded MT Bold,Î¢ÈíÑÅºÚ;
+		color: #9e9e9e;
+		background-color:rgba(250, 250, 250, 0.3);
+		border: none;
+		border-radius: 24px;
+		resize: none;
+		outline: none;
+		font-size: 18px;
+		text-indent: 2em;
+		box-shadow: 0px 5px 10px #9c9c9c;
+	}
+
+
+	.info *{position:absolute;}
+	.info_name{
+		top:30px;
+		left:30px;
+		font-size:30px;
+	}
+	.info_time{
+		top:60px;
+		left:30px;
+		font-size:20px;
+	}
+	.info_msg{
+		width:92%;
+		height:46%;
+		resize:none;
+		border:none;
+		top:80px;
+		left:15px;
+		padding:10px;
+		box-shadow: inset 0px 0px 20px rgba(140,140,140,.3);
+		font-size:20px;
+		font-family: Arial Rounded MT Bold,Î¢ÈíÑÅºÚ;
+		color: #9e9e9e;
+		outline: none;
+		border-radius: 10px;
+	}
+	.info_msg_mask{
+		z-index:2;
+	}
+	.info_change{
+		width:120px;
+		right:150px;
+		bottom:30px;
+		cursor:pointer;
+	}
+	.info_change_button{
+		opacity:0;
+	}
+	.info_delete{
+		width:140px;
+		right:30px;
+		bottom:30px;
+		cursor:pointer;
+	}
+	.info_delete_button{
+		opacity:0;
+	}
+	.info_editor{
+		top:35px;
+		right:20px;
+	}
+	.info_edit_time{
+		top:55px;
+		right:20px;
+	}

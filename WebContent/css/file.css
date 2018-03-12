@@ -1,0 +1,129 @@
+/*       table{border-collapse: collapse;  
+             border: none;  
+             width: 500px;}  
+       td,th{border: solid grey 1px;   
+             padding: 5px 5px 5px 5px}  */
+
+      /* Border styles */
+
+
+      body{
+    /*background: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);*/
+    background-image: url("../images/bg3.png");
+    /*background: linear-gradient(90deg, #fdfbfb 0%, #ebedee 100%);*/
+      }
+    a:link, a:visited, a:active { 
+      text-decoration: none;
+      font-family: 'Arial Rounded MT Bold',微软雅黑;
+      font-weight: bold;
+      font-size: 24px;
+      padding-right: 20px;
+      color: #adadad;
+
+    }
+
+    a:hover{
+      text-decoration: none;
+      font-family: 'Arial Rounded MT Bold',微软雅黑;
+      font-weight: bold;
+      font-size: 24px;
+      padding-right: 20px;
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #9a9898;
+    }
+
+    @font-face{
+    font-family: 'Arial Rounded MT Bold';
+    src:url('../fonts/ARLRDBD.TTF');
+  }
+/*    table thead, table tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(211, 202, 221);
+}*/
+/*    table {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(211, 202, 221);
+}*/
+
+    /* Padding and font style */
+    table td{
+    padding: 15px 10px;
+    font-size: 24px;
+    font-family: 'Arial Rounded MT Bold',微软雅黑;
+    color: #adadad;
+    width: 300px;
+    }
+
+    table th{
+    padding: 5px 10px;
+    font-size: 40px;
+    font-family: 'Arial Rounded MT Bold',微软雅黑;
+    color: #e8a7af;
+    text-shadow: 0px 1px 1px #9a9898;
+    width: 300px;
+    }
+    }
+
+/* Alternating background colors */
+    table tr:nth-child(even) {
+    background:rgba(0,0,0,0);
+    }
+    table tr:nth-child(odd) {
+    background:rgba(0,0,0,0);
+    }
+
+
+
+   .container{ 
+   			margin:100px auto 40px;  
+             width:500px;   
+             text-align:center; 
+             z-index=1}
+
+    #title{
+    font-family: Arial Rounded MT Bold;
+    font-size: 27px;
+    position: absolute;
+    top: 27px;
+    left: 35px;
+    color: #adadad;
+    text-shadow: 0px 1px 1px #ababab;
+   }
+
+    #back{
+    font-family: Arial Rounded MT Bold;
+    font-size: 27px;
+    position: absolute;
+    top: 27px;
+    right: 35px;
+    color: #adadad;
+    text-shadow: 0px 1px 1px #ababab;
+    }
+    
+    #back:hover{
+      text-decoration: none;
+      font-family: 'Arial Rounded MT Bold';
+      font-weight: bold;
+      font-size: 27px;
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #ababab;
+    }
+    #logout{
+		font-family: Arial Rounded MT Bold;
+   		font-size: 20px;
+   		position: absolute;
+		top: 60px;
+		left: 37px;
+    	color: #adadad;
+    	text-shadow: 0px 1px 1px #ababab;
+	}
+
+	#logout:hover{
+	  text-decoration: none;
+      font-family: 'Arial Rounded MT Bold';
+      color: #e8a7af;
+      text-shadow: 0px 0px 1px #ababab;
+	}
+    
